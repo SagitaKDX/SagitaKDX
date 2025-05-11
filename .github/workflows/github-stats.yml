@@ -12,42 +12,20 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       
-      # GitHub Stats Card
-      - name: GitHub Stats
-        uses: anmol098/waka-readme-stats@master
+      # GitHub Stats using a simpler, more reliable action
+      - name: GitHub Readme Stats
+        uses: jstrieb/github-stats@v1
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SHOW_LINES_OF_CODE: "True"
-          SHOW_PROFILE_VIEWS: "True"
-          SHOW_COMMIT: "True"
-          SHOW_DAYS_OF_WEEK: "True"
-          SHOW_LANGUAGE: "True"
-          SHOW_OS: "True"
-          SHOW_PROJECTS: "True"
-          SHOW_TIMEZONE: "True"
-          SHOW_EDITORS: "False"
-          SHOW_SHORT_INFO: "True"
+          USERNAME: ${{ github.repository_owner }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMIT_MESSAGE: "Updated GitHub Stats"
           
-      # Metrics and activity graphs  
-      - name: Metrics and Activity
-        uses: lowlighter/metrics@latest
+      # Generate activity graph
+      - name: Generate Activity Graph
+        uses: ashutosh00710/github-readme-activity-graph@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: SagitaKDX
-          config_timezone: Asia/Ho_Chi_Minh
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: header, activity, community, repositories
-          plugin_lines: yes
-          plugin_languages: yes
-          plugin_habits: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
+          github_user_name: ${{ github.repository_owner }}
+          theme: tokyo-night
+          area: true
+          hide_border: true 
