@@ -112,6 +112,12 @@
   <a href="https://github.com/SagitaKDX/E-comerce_Project">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=SagitaKDX&repo=E-comerce_Project&theme=tokyonight" />
   </a>
+  <a href="https://github.com/SagitaKDX/Inventory-Pro">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SagitaKDX&repo=Inventory-Pro&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/SagitaKDX/MoodleForum">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SagitaKDX&repo=MoodleForum&theme=tokyonight" />
+  </a>
 </div>
 
 <!-- Horizontal divider -->
@@ -143,4 +149,15 @@
 <!-- GitHub Activity Graph -->
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
   <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=SagitaKDX&theme=tokyo-night&hide_border=true" />
-</a> 
+</a>
+
+<!-- Header -->
+<div align="center">
+  <h1>Hello, I'm @SagitaKDX! 👋</h1>
+  <p>
+    🌱 Full-stack developer<br>
+    💻 Learning new technologies every day<br>
+    🔭 Currently working on E-commerce projects<br>
+    Last Updated: June 19, 2024<br>
+  </p>
+</div> 
