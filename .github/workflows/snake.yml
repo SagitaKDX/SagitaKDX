@@ -16,7 +16,7 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: SagitaKDX  # Replace with your GitHub username
+          github_user_name: SagitaKDX
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             
