@@ -8,18 +8,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: SagitaKDX  # Replace with your GitHub username
-          svg_out_path: dist/github-contribution-grid-snake-dark.svg
-          snake_color: 'blue'
-          
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v2.5.0
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
