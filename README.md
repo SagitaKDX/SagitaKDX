@@ -23,13 +23,13 @@
 <!-- Bullet points -->
 <div align="center">
   <p>
-    🔭 I'm currently a student at <b>University</b><br>
+    🔭 I'm currently a student at <b>University of Greenwich</b><br>
     🌱 I'm passionate about <b>Web Development and E-commerce solutions</b><br>
     💻 Check out my e-commerce project: <a href="https://github.com/SagitaKDX/E-comerce_Project">E-Commerce Project</a><br>
     🚀 Always exploring new technologies and frameworks<br>
     📚 Continuously learning and improving my skills<br>
-    📫 Reach me at: <b>your-email@example.com</b><br>
-    🏠 Connect on Discord: <b>your-discord-username</b>
+    📫 Reach me at: <b>hmmminhle@gmail.com</b><br>
+    🏠 Connect on Discord: <b>PolarPenguin</b>
   </p>
 </div>
 
