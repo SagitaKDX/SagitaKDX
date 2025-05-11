@@ -37,7 +37,7 @@
     <td align="center" width="50%">
       <h4>💻 Programming Languages</h4>
       <p>
-        <img src="https://skillicons.dev/icons?i=python,js,html,css,cpp,cs" />
+        <img src="https://skillicons.dev/icons?i=python,js,html,css,cpp,cs,php,java" />
       </p>
       <h4>🧰 Frameworks & Libraries</h4>
       <p>
