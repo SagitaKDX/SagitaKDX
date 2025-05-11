@@ -13,17 +13,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      # GitHub Stats using a simpler, more reliable action
-      - name: GitHub Readme Stats
-        uses: jstrieb/github-stats@v1
+      # GitHub Stats Card - using a version that exists
+      - name: GitHub Stats Card
+        uses: anuraghazra/github-readme-stats@master
         with:
-          USERNAME: ${{ github.repository_owner }}
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COMMIT_MESSAGE: "Updated GitHub Stats"
+          username: ${{ github.repository_owner }}
+          show_icons: true
+          count_private: true
+          theme: tokyonight
           
-      # Generate activity graph
+      # Generate activity graph - using master instead of v2
       - name: Generate Activity Graph
-        uses: ashutosh00710/github-readme-activity-graph@v2
+        uses: ashutosh00710/github-readme-activity-graph@master
         with:
           github_user_name: ${{ github.repository_owner }}
           theme: tokyo-night
