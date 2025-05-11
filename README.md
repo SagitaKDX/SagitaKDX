@@ -52,6 +52,41 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SagitaKDX&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
+<!-- Yearly Contributions Section -->
+<h2 align="center">📅 Contribution Timeline</h2>
+
+<!-- Yearly contribution navigator -->
+<div align="center">
+  <details open>
+    <summary><h3>📈 Contribution Graph</h3></summary>
+    <div align="center">
+      <h4>Select Year:</h4>
+      <a href="https://github-readme-activity-graph.vercel.app/graph?username=SagitaKDX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20in%202024">
+        <img src="https://img.shields.io/badge/2024-58a6ff?style=for-the-badge"/>
+      </a>
+      <a href="https://github-readme-activity-graph.vercel.app/graph?username=SagitaKDX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20in%202023">
+        <img src="https://img.shields.io/badge/2023-58a6ff?style=for-the-badge"/>
+      </a>
+      <a href="https://github-readme-activity-graph.vercel.app/graph?username=SagitaKDX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20in%202022">
+        <img src="https://img.shields.io/badge/2022-58a6ff?style=for-the-badge"/>
+      </a>
+      <a href="https://github-readme-activity-graph.vercel.app/graph?username=SagitaKDX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20in%202021">
+        <img src="https://img.shields.io/badge/2021-58a6ff?style=for-the-badge"/>
+      </a>
+    </div>
+    <!-- Default contribution graph (current year) -->
+    <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+      <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=SagitaKDX&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20in%202024" />
+    </a>
+  </details>
+
+  <!-- Contribution calendar -->
+  <details>
+    <summary><h3>📆 Contribution Calendar</h3></summary>
+    <img src="https://github.com/SagitaKDX/SagitaKDX/blob/output/github-contribution-grid-snake-dark.svg" alt="Contribution Calendar" />
+  </details>
+</div>
+
 <!-- Horizontal divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
