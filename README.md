@@ -25,7 +25,9 @@
       <p>
         🔭 Student at <b>University of Greenwich</b><br>
         🌱 Passionate about <b>Web Development and E-commerce solutions</b><br>
+        🏆 Competitive Programmer with skills in <b>Algorithms and Data Structures</b><br>
         💻 Check out my <a href="https://github.com/SagitaKDX/E-comerce_Project">E-Commerce Project</a><br>
+        👨‍💻 View my <a href="https://github.com/SagitaKDX/University-training">Competitive Programming solutions</a><br>
         🚀 Always exploring new technologies and frameworks<br>
         📚 Continuously learning and improving my skills<br>
         📫 Reach me at: <b>hmmminhle@gmail.com</b><br>
@@ -35,7 +37,7 @@
     <td align="center" width="50%">
       <h4>💻 Programming Languages</h4>
       <p>
-        <img src="https://skillicons.dev/icons?i=python,js,html,css" />
+        <img src="https://skillicons.dev/icons?i=python,js,html,css,cpp,cs" />
       </p>
       <h4>🧰 Frameworks & Libraries</h4>
       <p>
