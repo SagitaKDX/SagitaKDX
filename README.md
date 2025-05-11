@@ -13,25 +13,41 @@
 <!-- Horizontal divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<!-- About Me Section -->
-<h2 align="center">👨‍💻 About Me</h2>
+<!-- Combined About Me & Technologies Section -->
+<h2 align="center">👨‍💻 About Me & My Tech Stack</h2>
 
-<p align="center">
-  A passionate developer focusing on web technologies and e-commerce solutions
-</p>
-
-<!-- Bullet points -->
-<div align="center">
-  <p>
-    🔭 I'm currently a student at <b>University of Greenwich</b><br>
-    🌱 I'm passionate about <b>Web Development and E-commerce solutions</b><br>
-    💻 Check out my e-commerce project: <a href="https://github.com/SagitaKDX/E-comerce_Project">E-Commerce Project</a><br>
-    🚀 Always exploring new technologies and frameworks<br>
-    📚 Continuously learning and improving my skills<br>
-    📫 Reach me at: <b>hmmminhle@gmail.com</b><br>
-    🏠 Connect on Discord: <b>PolarPenguin</b>
-  </p>
-</div>
+<table align="center" border="0">
+  <tr>
+    <td align="center" width="50%">
+      <p>
+        A passionate developer focusing on web technologies and e-commerce solutions
+      </p>
+      <p>
+        🔭 Student at <b>University of Greenwich</b><br>
+        🌱 Passionate about <b>Web Development and E-commerce solutions</b><br>
+        💻 Check out my <a href="https://github.com/SagitaKDX/E-comerce_Project">E-Commerce Project</a><br>
+        🚀 Always exploring new technologies and frameworks<br>
+        📚 Continuously learning and improving my skills<br>
+        📫 Reach me at: <b>hmmminhle@gmail.com</b><br>
+        🏠 Discord: <b>PolarPenguin</b>
+      </p>
+    </td>
+    <td align="center" width="50%">
+      <h4>💻 Programming Languages</h4>
+      <p>
+        <img src="https://skillicons.dev/icons?i=python,js,html,css" />
+      </p>
+      <h4>🧰 Frameworks & Libraries</h4>
+      <p>
+        <img src="https://skillicons.dev/icons?i=django,bootstrap,react,jquery" />
+      </p>
+      <h4>🗄️ Databases & Tools</h4>
+      <p>
+        <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 <!-- Horizontal divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -84,32 +100,6 @@
     <summary><h3>📆 Contribution Calendar</h3></summary>
     <img src="https://github.com/SagitaKDX/SagitaKDX/blob/output/github-contribution-grid-snake-dark.svg" alt="Contribution Calendar" />
   </details>
-</div>
-
-<!-- Horizontal divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<!-- Tech Stack Section -->
-<h2 align="center">🛠️ Technologies & Tools</h2>
-
-<div align="center">
-  <!-- Programming Languages -->
-  <h3>💻 Programming Languages</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=python,js,html,css" />
-  </p>
-  
-  <!-- Frameworks & Libraries -->
-  <h3>🧰 Frameworks & Libraries</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=django,bootstrap,react,jquery" />
-  </p>
-  
-  <!-- Databases & Tools -->
-  <h3>🗄️ Databases & Tools</h3>
-  <p>
-    <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode" />
-  </p>
 </div>
 
 <!-- Horizontal divider -->
