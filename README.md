@@ -120,6 +120,9 @@
   <a href="https://github.com/SagitaKDX/MoodleForum">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=SagitaKDX&repo=MoodleForum&theme=tokyonight" />
   </a>
+  <a href="https://github.com/SagitaKDX/Agentchatbot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SagitaKDX&repo=Agentchatbot&theme=tokyonight" />
+  </a>
 </div>
 
 <!-- Horizontal divider -->
