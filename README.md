@@ -1,6 +1,6 @@
 <!-- ============================== HEADER ============================== -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:24283b,100:3b4261&height=200&section=header&text=L%C3%AA%20Thanh%20Minh&fontSize=52&fontColor=c0caf5&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Backend%20Developer%20%C2%B7%20Competitive%20Programmer&descSize=16&descAlignY=58&descColor=7aa2f7&animation=fadeIn" alt="Lê Thanh Minh" />
+  <img width="100%" src="./assets/hero.svg" alt="Lê Thanh Minh — AI Engineer · Backend Developer · Competitive Programmer" />
 </p>
 
 <p align="center">
@@ -19,20 +19,16 @@
   <img src="https://komarev.com/ghpvc/?username=SagitaKDX&color=7aa2f7&style=flat-square&label=Profile+views" alt="Profile views" />
 </p>
 
+<img width="100%" src="./assets/divider.svg" alt="" />
+
 <!-- ============================== ABOUT ============================== -->
 ## 👨‍💻 About Me
 
 I'm a software developer from Vietnam who likes hard problems — algorithms first, then turning them into real products. My work sits where **backend engineering**, **AI/LLM applications** and **edge computing** meet.
 
-```python
-class LeThanhMinh:
-    location  = "Ho Chi Minh City, Vietnam"
-    education = "BSc Information Technology @ University of Greenwich (GPA 3.95)"
-    focus     = ["LLM apps (RAG, multi-agent, ReAct)", "Edge AI", "Backend (Django, FastAPI)"]
-    currently = "Building AI products & sharpening DSA"
-    languages = {"Vietnamese": "native", "English": "IELTS 7.0"}
-    fun_fact  = "Co-authored a Codeforces round played by ~20,000 people"
-```
+<p align="center">
+  <img width="100%" src="./assets/terminal.svg" alt="Terminal: whoami — Lê Thanh Minh, AI Engineer & Backend Developer. Education: BSc IT @ University of Greenwich, GPA 3.95. Focus: LLM apps, Edge AI, Django & FastAPI. Codeforces Specialist." />
+</p>
 
 ## 💼 Experience
 
@@ -145,23 +141,9 @@ class LeThanhMinh:
       <img src="https://img.shields.io/badge/Llama-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Llama" />
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📦 <a href="https://github.com/SagitaKDX/Inventory-Pro">InventoryPro</a></h3>
-      Inventory & sales management across multiple warehouses with VND support, AJAX dynamic forms, Excel export, reporting and role-based access.<br /><br />
-      <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>📚 <a href="https://github.com/SagitaKDX/MoodleForum">Student Learning Community</a></h3>
-      MVC PHP platform where students share posts and join learning modules — email verification, full CRUD and an admin dashboard for moderation & analytics.<br /><br />
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-    </td>
-  </tr>
 </table>
+
+<img width="100%" src="./assets/divider.svg" alt="" />
 
 <!-- ============================== CP & COMMUNITY ============================== -->
 ## 🏆 Competitive Programming & Community
@@ -197,6 +179,8 @@ class LeThanhMinh:
 | 2023 | 🏅 **Greenwich Coding Challenge** — First Prize (Junior), Second Prize (Senior) |
 | 2023 | 📜 **Problem Solving (Intermediate)** · **VNOI Certificate** |
 | 2023 – | 🧭 **Undergraduate Researcher** — *A novel A\* approach for shortest paths to rescue-supply locations during natural and military disasters* |
+
+<img width="100%" src="./assets/divider.svg" alt="" />
 
 <!-- ============================== GITHUB STATS ============================== -->
 ## 📊 GitHub Activity

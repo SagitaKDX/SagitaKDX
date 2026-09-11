@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-label="Lê Thanh Minh — AI Engineer · Backend Developer · Competitive Programmer">
+  <style>
+    .star { fill: #c0caf5; animation: twinkle 3s ease-in-out infinite both; }
+    .aurora-a { animation: drift-a 14s ease-in-out infinite alternate; }
+    .aurora-b { animation: drift-b 18s ease-in-out infinite alternate; }
+    .name { font: 800 76px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; letter-spacing: 1px; stroke-width: 1.4; stroke-dasharray: 1000;
+             animation: draw 2.6s ease-out both, fill-in 1.2s ease 1.5s both; }
+    .rule { transform-box: fill-box; transform-origin: center; animation: grow 1.2s cubic-bezier(.2,.8,.2,1) 2s both; }
+    .sub { font: 500 21px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; letter-spacing: 1.5px; fill: #a9b1d6; animation: rise 1s ease 2.4s both; }
+    .dot { fill: #bb9af7; }
+    @keyframes twinkle { 0%, 100% { opacity: .15 } 50% { opacity: .9 } }
+    @keyframes drift-a { from { transform: translate(-60px, 0) } to { transform: translate(120px, 20px) } }
+    @keyframes drift-b { from { transform: translate(80px, 10px) } to { transform: translate(-110px, -15px) } }
+    @keyframes draw { from { stroke-dashoffset: 1000 } to { stroke-dashoffset: 0 } }
+    @keyframes fill-in { from { fill-opacity: 0 } to { fill-opacity: 1 } }
+    @keyframes grow { from { transform: scaleX(0); opacity: 0 } to { transform: scaleX(1); opacity: 1 } }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: translateY(0) } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <clipPath id="card"><rect width="1000" height="280" rx="18"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16161e"/><stop offset="1" stop-color="#1f2335"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0" stop-color="#7aa2f7"/><stop offset=".35" stop-color="#bb9af7"/>
+      <stop offset=".7" stop-color="#7dcfff"/><stop offset="1" stop-color="#7aa2f7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="520 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0"/><stop offset=".5" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="glow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <ellipse class="aurora-a" cx="300" cy="90" rx="260" ry="90" fill="#7aa2f7" opacity=".22" filter="url(#blur)"/>
+    <ellipse class="aurora-b" cx="720" cy="200" rx="280" ry="80" fill="#bb9af7" opacity=".18" filter="url(#blur)"/>
+    <circle class="star" cx="660" cy="207" r="1.4" style="animation-duration:4.7s;animation-delay:2.4s"/><circle class="star" cx="389" cy="146" r="1.8" style="animation-duration:3.9s;animation-delay:3.6s"/><circle class="star" cx="269" cy="45" r="0.7" style="animation-duration:4.3s;animation-delay:0.8s"/><circle class="star" cx="137" cy="225" r="0.7" style="animation-duration:2.6s;animation-delay:0.5s"/><circle class="star" cx="507" cy="223" r="1.4" style="animation-duration:4.3s;animation-delay:3.5s"/><circle class="star" cx="865" cy="267" r="0.7" style="animation-duration:3.4s;animation-delay:2.1s"/><circle class="star" cx="266" cy="24" r="0.7" style="animation-duration:4.4s;animation-delay:1.9s"/><circle class="star" cx="564" cy="76" r="1.1" style="animation-duration:4.9s;animation-delay:2.6s"/><circle class="star" cx="841" cy="217" r="1.4" style="animation-duration:4.6s;animation-delay:3.1s"/><circle class="star" cx="571" cy="34" r="1.4" style="animation-duration:4.9s;animation-delay:1.4s"/><circle class="star" cx="36" cy="154" r="1.1" style="animation-duration:3.2s;animation-delay:0.2s"/><circle class="star" cx="420" cy="27" r="0.7" style="animation-duration:3.3s;animation-delay:1.3s"/><circle class="star" cx="92" cy="247" r="0.9" style="animation-duration:3.6s;animation-delay:0.2s"/><circle class="star" cx="266" cy="63" r="0.9" style="animation-duration:4.9s;animation-delay:3.3s"/><circle class="star" cx="337" cy="211" r="0.9" style="animation-duration:4.1s;animation-delay:3.7s"/><circle class="star" cx="780" cy="175" r="1.4" style="animation-duration:3.6s;animation-delay:3.2s"/><circle class="star" cx="746" cy="22" r="1.1" style="animation-duration:3.9s;animation-delay:0.1s"/><circle class="star" cx="19" cy="35" r="1.1" style="animation-duration:4.2s;animation-delay:0.5s"/><circle class="star" cx="378" cy="170" r="1.1" style="animation-duration:3.6s;animation-delay:2.1s"/><circle class="star" cx="454" cy="147" r="0.9" style="animation-duration:4.7s;animation-delay:2.8s"/><circle class="star" cx="696" cy="216" r="1.4" style="animation-duration:3.3s;animation-delay:3.6s"/><circle class="star" cx="327" cy="205" r="0.7" style="animation-duration:4.0s;animation-delay:2.3s"/><circle class="star" cx="143" cy="101" r="1.8" style="animation-duration:3.2s;animation-delay:2.0s"/><circle class="star" cx="334" cy="26" r="0.9" style="animation-duration:2.8s;animation-delay:0.3s"/><circle class="star" cx="94" cy="219" r="0.9" style="animation-duration:4.7s;animation-delay:2.3s"/><circle class="star" cx="87" cy="103" r="1.1" style="animation-duration:4.5s;animation-delay:1.5s"/><circle class="star" cx="701" cy="245" r="1.8" style="animation-duration:4.7s;animation-delay:3.9s"/><circle class="star" cx="936" cy="83" r="1.8" style="animation-duration:3.1s;animation-delay:0.5s"/><circle class="star" cx="688" cy="239" r="1.1" style="animation-duration:2.9s;animation-delay:0.3s"/><circle class="star" cx="950" cy="88" r="0.7" style="animation-duration:3.4s;animation-delay:2.6s"/><circle class="star" cx="687" cy="204" r="1.8" style="animation-duration:4.4s;animation-delay:3.0s"/><circle class="star" cx="313" cy="138" r="0.9" style="animation-duration:4.0s;animation-delay:0.7s"/><circle class="star" cx="39" cy="215" r="0.9" style="animation-duration:3.9s;animation-delay:1.8s"/><circle class="star" cx="866" cy="99" r="1.4" style="animation-duration:4.6s;animation-delay:1.3s"/><circle class="star" cx="439" cy="120" r="1.8" style="animation-duration:2.8s;animation-delay:1.2s"/><circle class="star" cx="722" cy="12" r="1.4" style="animation-duration:3.2s;animation-delay:0.9s"/><circle class="star" cx="401" cy="141" r="0.9" style="animation-duration:2.4s;animation-delay:2.8s"/><circle class="star" cx="156" cy="75" r="1.8" style="animation-duration:2.7s;animation-delay:1.3s"/><circle class="star" cx="931" cy="166" r="1.1" style="animation-duration:2.6s;animation-delay:0.7s"/><circle class="star" cx="175" cy="258" r="0.9" style="animation-duration:3.6s;animation-delay:1.6s"/><circle class="star" cx="551" cy="210" r="1.1" style="animation-duration:3.7s;animation-delay:0.9s"/><circle class="star" cx="283" cy="129" r="0.7" style="animation-duration:5.0s;animation-delay:1.2s"/><circle class="star" cx="366" cy="31" r="1.4" style="animation-duration:3.8s;animation-delay:3.0s"/><circle class="star" cx="343" cy="50" r="0.9" style="animation-duration:4.9s;animation-delay:3.9s"/><circle class="star" cx="160" cy="193" r="1.4" style="animation-duration:2.3s;animation-delay:0.5s"/><circle class="star" cx="598" cy="87" r="1.1" style="animation-duration:3.5s;animation-delay:3.0s"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="279" rx="18" fill="none" stroke="#2f334d"/>
+  <text class="name" x="500" y="140" text-anchor="middle" fill="url(#shine)" stroke="url(#shine)" filter="url(#glow)">Lê Thanh Minh</text>
+  <rect class="rule" x="370" y="162" width="260" height="2" rx="1" fill="url(#rule)"/>
+  <text class="sub" x="500" y="204" text-anchor="middle">AI Engineer <tspan class="dot">·</tspan> Backend Developer <tspan class="dot">·</tspan> Competitive Programmer</text>
+</svg>
