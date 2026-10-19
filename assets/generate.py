@@ -87,7 +87,7 @@ TERMINAL_SCRIPT = [
     ("out", [(FG, "Lê Thanh Minh"), (COMMENT, " — "), (MUTED, "AI Engineer & Backend Developer, Ho Chi Minh City")]),
     ("cmd", "cat profile.yml"),
     ("kv", ("education ", "BSc IT @ University of Greenwich · GPA 3.95")),
-    ("kv", ("experience", "AI Engineer @ Vingroup · AI Trainer @ Datacurve")),
+    ("kv", ("experience", "AI Engineer @ VinUni R&D · Vingroup")),
     ("kv", ("focus     ", "LLM apps (RAG, multi-agent) · Edge AI · Django & FastAPI")),
     ("kv", ("codeforces", "Sagita_Phoenix · Specialist · Round #983 problem setter")),
     ("kv", ("community ", "VNOI · CODEMELY · Dev ơi mình đi đâu thế?")),
@@ -142,7 +142,7 @@ def terminal():
     lines.append(f'<text x="{x0}" y="{y_final}">{prompt}{cursor}{show(final_prompt_at)}</text>')
 
     body = "\n    ".join(lines)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}" viewBox="0 0 900 {height}" role="img" aria-label="Terminal: whoami and cat profile.yml for Lê Thanh Minh">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}" viewBox="0 0 900 {height}" role="img" aria-label="Terminal: whoami and cat profile.yml for Lê Thanh Minh — AI Engineer @ VinUni R&D · Vingroup">
   <defs>
     <linearGradient id="edge" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="{BLUE}"/><stop offset=".5" stop-color="{PURPLE}"/><stop offset="1" stop-color="{CYAN}"/>

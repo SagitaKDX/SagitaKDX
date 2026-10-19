@@ -24,15 +24,29 @@
 <!-- ============================== ABOUT ============================== -->
 ## 👨‍💻 About Me
 
-I'm a software developer from Vietnam who likes hard problems — algorithms first, then turning them into real products. My work sits where **backend engineering**, **AI/LLM applications** and **edge computing** meet.
+I'm a software developer from Vietnam who likes hard problems — algorithms first, then turning them into real products. Currently contributing to applied AI R&D at VinUniversity (VinUni) · Vingroup, where **backend engineering**, **AI/LLM applications** and **edge computing** meet.
 
 <p align="center">
-  <img width="100%" src="./assets/terminal.svg" alt="Terminal: whoami — Lê Thanh Minh, AI Engineer & Backend Developer. Education: BSc IT @ University of Greenwich, GPA 3.95. Focus: LLM apps, Edge AI, Django & FastAPI. Codeforces Specialist." />
+  <img width="100%" src="./assets/terminal.svg" alt="Terminal: whoami — Lê Thanh Minh, AI Engineer & Backend Developer. Education: BSc IT @ University of Greenwich, GPA 3.95. Experience: AI Engineer @ VinUni R&D · Vingroup. Focus: LLM apps, Edge AI, Django & FastAPI. Codeforces Specialist." />
 </p>
 
 ## 💼 Experience
 
 <table>
+  <tr>
+    <td width="72%">
+      <b>AI Engineer | R&D Team</b> · <a href="https://vinuni.edu.vn">VinUniversity (VinUni) · Vingroup</a><br />
+      <sub>Ho Chi Minh, Vietnam</sub>
+    </td>
+    <td align="right"><sub>Sep 2026 – Present</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      • Contribute to applied AI R&D for education-focused products, spanning LLM application design, experimentation, and iterative system improvement.<br />
+      • Prototype and refine RAG / agentic workflows using public LLM tooling (e.g., LangChain, OpenAI-compatible APIs), with emphasis on reliability, evaluation, and maintainable Python services.<br />
+      • Collaborate with cross-functional R&D stakeholders to translate research ideas into usable demos and production-oriented components.
+    </td>
+  </tr>
   <tr>
     <td width="72%">
       <b>AI Engineer</b> · <a href="https://vingroup.net">Vingroup</a> — <i>AI in Action Program</i><br />
@@ -97,7 +111,7 @@ I'm a software developer from Vietnam who likes hard problems — algorithms fir
   <tr>
     <td align="right"><b>Tools & Edge</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=git,github,vscode,linux&perline=7" alt="Git, GitHub, VS Code, Linux" /><br />
+      <img src="https://skillicons.dev/icons?i=git,github,vscode,cursor,docker,linux&perline=7" alt="Git, GitHub, VS Code, Cursor, Docker, Linux" /><br />
       <img src="https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Jetson" />
     </td>
   </tr>
